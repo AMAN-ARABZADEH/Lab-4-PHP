@@ -1,4 +1,4 @@
-# Lab-4-PHP
+# Lab-4-PHP Database and File handling in Object Oriented Programming PHP
 Guestbook Application
 
 This is a simple guestbook application that allows users to leave messages that are displayed on a page for everyone to see. 
@@ -9,7 +9,7 @@ Features
 
 Users can leave messages that are displayed on a page.
 Messages are stored in either a file or a database, depending on which version of the application is being used.
-The file-based version of the application uses simple file handling to read and write messages.
+The file-based version of the application uses simple file handling however in OOP (Object oriented way)  way to read and write messages.
 The database-based version of the application uses PDO to connect to a database and read/write messages in a secure way.
 Both versions of the application are included in the same repository for easy comparison.
 
