@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(211, 53, 0);
+    color: white;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: auto;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+}

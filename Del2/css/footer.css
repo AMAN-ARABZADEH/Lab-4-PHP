@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(211, 53, 0);
+    color: white;
+    height: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        height: auto;
+        padding: 1rem;
+    }
+}
